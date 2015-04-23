@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <Button android:id="@+id/three_first_activity_btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/three_first_activity_btn_add"
+            android:onClick="click"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/three_first_activity_btn_add">
+
+        <LinearLayout
+                android:id="@+id/three_first_activity_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

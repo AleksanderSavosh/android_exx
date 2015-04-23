@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/nine_first_activity_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+
+        <Button android:id="@+id/nine_first_activity_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/nine_first_activity_search"
+                android:onClick="click"/>
+
+
+        <EditText
+                android:id="@+id/nine_first_activity_search_string"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/nine_first_activity_btn"
+                android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+    <ListView
+            android:id="@+id/nine_first_activity_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/nine_first_activity_search_bar">
+    </ListView>
+
+
+</RelativeLayout>

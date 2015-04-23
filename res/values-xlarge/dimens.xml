@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="three_second_activity_btn_center">200dp</dimen>
+    <dimen name="five_first_activity_img_size">50dp</dimen>
+    <dimen name="default_text_size">24dp</dimen>
+    <dimen name="five_first_activity_margin_data">16dp</dimen>
+</resources>

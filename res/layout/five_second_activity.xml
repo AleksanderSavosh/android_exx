@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <FrameLayout
+            android:id="@+id/five_second_activity_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/five_second_activity_btns">
+
+        <LinearLayout
+                android:id="@+id/five_second_activity_login_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone">
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin"
+                    android:hint="@string/five_second_activity_login"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin"
+                    android:hint="@string/five_second_activity_password"/>
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin"
+                    android:layout_gravity="right"
+                    android:text="@string/five_second_activity_ok"/>
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+    <LinearLayout
+            android:id="@id/five_second_activity_btns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+        <Button android:id="@+id/five_second_activity_btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/five_second_activity_login"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/five_second_activity_btn_cats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/five_second_activity_cats"
+                android:onClick="click"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="flexible">
+        <attr name="width_relative_parent" format="float"/>
+        <attr name="height_relative_parent" format="float"/>
+    </declare-styleable>
+
+
+</resources>

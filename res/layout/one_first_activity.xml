@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+
+    <Button android:id="@+id/one_first_activity_btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/one_first_activity_btn_margin_r_l"
+            android:layout_marginLeft="@dimen/one_first_activity_btn_margin_r_l"
+            android:text="@string/one_first_activity_start"/>
+
+    <Button android:id="@+id/one_first_activity_btn_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/one_first_activity_btn_margin_r_l"
+            android:layout_marginLeft="@dimen/one_first_activity_btn_margin_r_l"
+            android:text="@string/one_first_activity_score"/>
+
+</LinearLayout>

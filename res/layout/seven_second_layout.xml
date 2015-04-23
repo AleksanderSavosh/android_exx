@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/seven_second_txt_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/seven_first_activity_txt_large"
+            android:text="hh:mm"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seven_second_activity_get_time"
+            android:onClick="click"/>
+
+</LinearLayout>

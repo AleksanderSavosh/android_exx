@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <com.savosh.exx.component.MyImageView
+            android:id="@+id/three_items_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@android:drawable/ic_menu_more"/>
+
+    <TextView
+            android:id="@+id/three_items_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/three_items_img"
+            android:gravity="center"
+            android:text="@string/one_second_activity_some_text"/>
+
+</RelativeLayout>

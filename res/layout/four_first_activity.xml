@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/three_second_activity_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/four_ic_background"
+        card_view:cardCornerRadius="@dimen/default_radius">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/default_margin">
+
+        <com.savosh.exx.component.MyImageView
+                android:id="@+id/four_first_activity_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"/>
+
+        <ImageView
+                android:id="@+id/four_first_activity_img_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/four_first_activity_img"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/default_margin"
+                android:background="@drawable/ic_place"/>
+
+        <TextView
+                android:id="@+id/four_first_activity_txt_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/four_first_activity_img"
+                android:layout_toLeftOf="@id/four_first_activity_img_place"
+                android:padding="@dimen/default_padding"
+                android:minLines="2"
+                android:textColor="#000"
+                android:textSize="@dimen/default_header_txt_size"
+                android:text="@string/four_first_activity_some_header"/>
+
+        <TextView
+                android:id="@+id/four_first_activity_txt_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/four_first_activity_txt_header"
+                android:padding="@dimen/default_padding"
+                android:textColor="#000"
+                android:text="@string/one_second_activity_some_text"
+                android:background="@color/four_first_activity_txt_bckgrnd"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/four_first_activity_txt_content">
+
+            <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="@dimen/default_margin"
+                        android:padding="@dimen/default_padding"
+                        android:gravity="center">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:src="@android:drawable/btn_star_big_on" />
+
+                    <TextView
+                            android:id="@+id/button_text_save"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/default_margin"
+                            android:textColor="#000"
+                            android:text="@string/four_first_activity_btn_save" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="@dimen/default_margin"
+                        android:padding="@dimen/default_padding"
+                        android:gravity="center">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:src="@android:drawable/ic_menu_mapmode" />
+
+                    <TextView
+                            android:id="@+id/four_first_activity_button_text_map"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/default_margin"
+                            android:textColor="#000"
+                            android:text="@string/four_first_activity_btn_map" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.savosh.exx">
+    <uses-sdk android:minSdkVersion="15"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MenuActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".one.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
+        <activity android:name=".one.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
+        <activity android:name=".two.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
+        <activity android:name=".three.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
+        <activity android:name=".three.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".four.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
+        <activity android:name=".five.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".five.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".six.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
+        <activity android:name=".seven.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".seven.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".eight.SplashScreenActivity"
+                  android:icon="@drawable/icon"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".eight.FirstActivity"
+                  android:icon="@drawable/icon"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".eight.SecondActivity"
+                  android:icon="@drawable/icon"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".nine.FirstActivity"
+                  android:icon="@drawable/icon"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".eleven.SplashScreenActivity"
+                  android:icon="@drawable/icon"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".eleven.FirstActivity"
+                  android:icon="@drawable/icon"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        <activity android:name=".eleven.ScreenSlidePagerActivity"
+                  android:icon="@drawable/icon"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Holo.NoActionBar"/>
+    </application>
+</manifest>

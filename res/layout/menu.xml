@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button android:id="@+id/menu_btn_exx_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_one"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_two"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_three_dot_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_three_dot_one"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_three_dot_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_three_dot_two"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_four"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_five_dot_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_five_dot_one"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_five_dot_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_five_dot_two"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_six"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_seven_dot_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_seven_dot_one"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_seven_dot_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_seven_dot_two"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_eight"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_nine"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_ten"
+                android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_eleven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_eleven"
+                android:onClick="click"/>
+    </LinearLayout>
+</ScrollView>

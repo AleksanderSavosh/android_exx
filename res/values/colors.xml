@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="four_ic_background">#95d5d100</color>
+    <color name="four_first_activity_txt_bckgrnd">#ffe8e8e8</color>
+    <color name="six_first_activity_btn">#aaa</color>
+    <color name="six_first_activity_btn_pressed">#c7dc3100</color>
+    <color name="eight_first_activity_header">#c700ddee</color>
+    <color name="eight_second_card_view_good">#ff0e7900</color>
+    <color name="eight_second_card_view_bad">#ff950007</color>
+</resources>

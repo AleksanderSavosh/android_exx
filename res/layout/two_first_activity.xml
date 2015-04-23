@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center">
+
+    <EditText
+            android:id="@+id/two_first_activity_edtxt_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:hint="@string/two_first_activity_edtxt_one"/>
+
+    <EditText
+            android:id="@+id/two_first_activity_edtxt_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:hint="@string/two_first_activity_edtxt_two"/>
+
+    <Button android:id="@+id/two_first_activity_btn_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/two_first_activity_btn_one"
+            android:onClick="click"/>
+
+    <Button android:id="@+id/two_first_activity_btn_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/two_first_activity_btn_two"
+            android:onClick="click"/>
+
+</LinearLayout>

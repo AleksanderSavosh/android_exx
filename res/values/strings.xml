@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Lop!</string>
+    <string name="app_name">android_exx</string>
+    <string name="exx_one">Example 1 (Start new activity.)</string>
+    <string name="one_first_activity_start">Start</string>
+    <string name="one_first_activity_score">Score</string>
+    <string name="one_second_activity_some_text">Text text text text text text text text text text text text text text
+        text text text
+    </string>
+    <string name="one_second_activity_btn">Button</string>
+    <string name="two_first_activity_edtxt_one">One</string>
+    <string name="two_first_activity_edtxt_two">Two</string>
+    <string name="two_first_activity_btn_one">Button one</string>
+    <string name="two_first_activity_btn_two">Button two</string>
+    <string name="exx_two">Example 2 (Handle edit text fields.)</string>
+    <string name="three_first_activity_btn_add">Add</string>
+    <string name="exx_three_dot_one">Example 3.1 (Load images and scale its.)</string>
+    <string name="exx_three_dot_two">Example 3.2 (Buttons position and non-standard size.)</string>
+    <string name="three_second_activity_btn_left">Left</string>
+    <string name="three_second_activity_btn_right">Right</string>
+    <string name="three_second_activity_btn_bottom">Bottom</string>
+    <string name="three_second_activity_btn_center">Center</string>
+    <string name="four_first_activity_some_header">Header of something interesting</string>
+    <string name="four_first_activity_btn_save">SAVE</string>
+    <string name="four_first_activity_btn_map">MAP</string>
+    <string name="exx_four">Example 4 (Using card view.)</string>
+    <string name="five_first_activity_data">32w ago</string>
+    <string name="exx_five_dot_one">Example 5.1 (Using relative layout.)</string>
+    <string name="exx_five_dot_two">Example 5.2 (Using insets. Login form.)</string>
+    <string name="five_second_activity_login">Login</string>
+    <string name="five_second_activity_cats">Cats</string>
+    <string name="five_second_activity_password">Password</string>
+    <string name="five_second_activity_ok">OK</string>
+    <string name="exx_six">Example 6 (Button with image.)</string>
+    <string name="seven_first_activity_btn_start">START</string>
+    <string name="seven_first_activity_btn_stop">STOP</string>
+    <string name="exx_seven_dot_one">Example 7.1 (AsyncTask publish progress. Timer.)</string>
+    <string name="seven_second_activity_get_time">Get time</string>
+    <string name="exx_seven_dot_two">Example 7.2 (Parse json. Get current time.)</string>
+    <string name="exx_eight">Example 8 (History exchange rate. Splash screen. Progress bar. Parse json.)</string>
+    <string name="eight_first_activity_date">Date</string>
+    <string name="eight_first_activity_currency">Currency</string>
+    <string name="eight_first_activity_buy">Buying</string>
+    <string name="eight_first_activity_sell">Selling</string>
+    <string name="eight_first_activity_nbu">NBU</string>
+    <string name="eight_first_activity_no_data">-</string>
+    <string name="nine_first_activity_search">Search</string>
+    <string name="exx_nine">Example 9 (Search images)</string>
+    <string name="exx_ten">Example 10 (Search gifs)</string>
+    <string name="exx_eleven">Example 11 (View pager.)</string>
+</resources>
