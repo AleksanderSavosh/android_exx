@@ -49,4 +49,5 @@
     <string name="exx_nine">Example 9 (Search images)</string>
     <string name="exx_ten">Example 10 (Search gifs)</string>
     <string name="exx_eleven">Example 11 (View pager.)</string>
+    <string name="exx_twelve">Example 12 (Recycler view with card view for notes.)</string>
 </resources>

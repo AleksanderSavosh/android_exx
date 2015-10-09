@@ -107,5 +107,13 @@
                 android:layout_margin="16dp"
                 android:text="@string/exx_eleven"
                 android:onClick="click"/>
+
+        <Button android:id="@+id/menu_btn_exx_twelve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/exx_twelve"
+                android:onClick="click"/>
+
     </LinearLayout>
 </ScrollView>

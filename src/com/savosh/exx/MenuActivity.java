@@ -94,7 +94,11 @@ public class MenuActivity extends Activity {
                 startActivity(intent);
                 break;
             }
-
+            case R.id.menu_btn_exx_twelve:{
+                Intent intent = new Intent(this, com.savosh.exx.twelve.MainActivity.class);
+                startActivity(intent);
+                break;
+            }
         }
 
 
