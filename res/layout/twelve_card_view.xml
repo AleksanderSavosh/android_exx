@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:custom_view="http://schemas.android.com/apk/res-auto"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+            android:elevation="2dp"
+        android:layout_margin="4dp"
+        custom_view:cardCornerRadius="2dp">
 
     <RelativeLayout android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="0dp">
+                    android:layout_height="wrap_content">
 
-        <ImageView android:id="@+id/twelve_card_view_image_16x9"
+        <com.savosh.exx.component.CustomImageView
+                android:id="@+id/twelve_card_view_image_16x9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
-                android:padding="0dp"
-                android:layout_margin="0dp"
+                android:scaleType="centerCrop"
+                custom_view:radius="5dp"
+                custom_view:radiusTopLeft="25dp"
+                custom_view:pWidth="16"
+                custom_view:pHeight="9"
+                android:background="#fa2255"
                 android:visibility="gone"/>
 
-        <TextView android:id="@+id/twelve_card_view_title"
+        <RelativeLayout
+                android:id="@+id/twelve_card_view_wrapper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/twelve_card_view_image_16x9"
-                android:layout_margin="0dp"
-                android:visibility="gone"/>
+                android:padding="8dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp">
 
-        <TextView android:id="@+id/twelve_card_view_text"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:layout_below="@id/twelve_card_view_title"
-                  android:layout_margin="0dp"
-                  android:visibility="gone"/>
+            <TextView android:id="@+id/twelve_card_view_title"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                      android:textSize="24sp"
+                      android:padding="8dp"
+                      android:visibility="gone"/>
+
+            <TextView android:id="@+id/twelve_card_view_text"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@id/twelve_card_view_title"
+                      android:textSize="14sp"
+                      android:padding="8dp"
+                      android:visibility="gone"/>
+        </RelativeLayout>
 
     </RelativeLayout>
 

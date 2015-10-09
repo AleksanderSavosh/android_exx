@@ -5,5 +5,15 @@
         <attr name="height_relative_parent" format="float"/>
     </declare-styleable>
 
+    <declare-styleable name="CustomImageView">
+        <attr name="pWidth" format="integer"/>
+        <attr name="pHeight" format="integer"/>
+        <attr name="radiusTopLeft" format="dimension"/>
+        <attr name="radiusTopRight" format="dimension"/>
+        <attr name="radiusBottomRight" format="dimension"/>
+        <attr name="radiusBottomLeft" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+
 
 </resources>

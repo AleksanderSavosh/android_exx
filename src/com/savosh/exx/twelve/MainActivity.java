@@ -22,11 +22,11 @@ public class MainActivity extends Activity {
 
     public List<Notice> noticeList = new ArrayList<Notice>(){{
         add(new Notice());
-        add(new Notice());
-        add(new Notice());
-        add(new Notice());
-        add(new Notice());
-        add(new Notice());
+//        add(new Notice());
+//        add(new Notice());
+//        add(new Notice());
+//        add(new Notice());
+//        add(new Notice());
     }};
 
     private RecyclerView mRecyclerView;
@@ -48,8 +48,8 @@ public class MainActivity extends Activity {
         }
         byte[] img = CommonTools.getBitmapAsByteArrayJpeg(((BitmapDrawable) drawable).getBitmap());
         noticeList.get(0).img = img;
-        noticeList.get(3).img = img;
-        noticeList.get(5).img = img;
+//        noticeList.get(3).img = img;
+//        noticeList.get(5).img = img;
 
 
         // use this setting to improve performance if you know that changes
