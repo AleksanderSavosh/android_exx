@@ -1,6 +1,7 @@
 package com.savosh.exx.twelve;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
@@ -13,20 +14,23 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.savosh.exx.R;
+import com.savosh.exx.component.TextDrawable;
+import com.savosh.exx.util.ColorGenerator;
 import com.savosh.exx.util.CommonTools;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class MainActivity extends Activity {
 
     public List<Notice> noticeList = new ArrayList<Notice>(){{
         add(new Notice());
-//        add(new Notice());
-//        add(new Notice());
-//        add(new Notice());
-//        add(new Notice());
-//        add(new Notice());
+        add(new Notice());
+        add(new Notice());
+        add(new Notice());
+        add(new Notice());
+        add(new Notice());
     }};
 
     private RecyclerView mRecyclerView;
@@ -48,8 +52,8 @@ public class MainActivity extends Activity {
         }
         byte[] img = CommonTools.getBitmapAsByteArrayJpeg(((BitmapDrawable) drawable).getBitmap());
         noticeList.get(0).img = img;
-//        noticeList.get(3).img = img;
-//        noticeList.get(5).img = img;
+        noticeList.get(3).img = img;
+        noticeList.get(5).img = img;
 
 
         // use this setting to improve performance if you know that changes
@@ -69,11 +73,13 @@ public class MainActivity extends Activity {
 
         public static class ViewHolder extends RecyclerView.ViewHolder {
             ImageView imageView;
+            ImageView titleIcon;
             TextView titleTextView;
             TextView textTextView;
             public ViewHolder(View itemView) {
                 super(itemView);
                 imageView = (ImageView) itemView.findViewById(R.id.twelve_card_view_image_16x9);
+                titleIcon = (ImageView) itemView.findViewById(R.id.twelve_card_view_title_icon);
                 titleTextView = (TextView) itemView.findViewById(R.id.twelve_card_view_title);
                 textTextView = (TextView) itemView.findViewById(R.id.twelve_card_view_text);
             }
@@ -106,6 +112,15 @@ public class MainActivity extends Activity {
                 holder.imageView.setImageBitmap(CommonTools.getByteArrayAsBitmap(notice.img));
             } else {
                 holder.imageView.setVisibility(View.GONE);
+            }
+            if(notice.type != null){
+                holder.titleIcon.setVisibility(View.VISIBLE);
+                int index = Math.abs(new Random().nextInt() % notice.type.length());
+                String litter = "" + notice.type.charAt(index);
+                holder.titleIcon.setImageDrawable(TextDrawable.builder().buildRound(litter.toUpperCase(),
+                        ColorGenerator.MATERIAL.getRandomColor()));
+            } else {
+                holder.titleIcon.setVisibility(View.GONE);
             }
             if(notice.title != null) {
                 holder.titleTextView.setVisibility(View.VISIBLE);

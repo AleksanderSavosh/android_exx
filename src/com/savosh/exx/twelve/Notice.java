@@ -10,8 +10,16 @@ public class Notice {
             "text text text text text " +
             "text text text text text " +
             "text text text text text " +
+            "text text text text text " +
+            "text text text text text " +
+            "text text text text text " +
+            "text text text text text " +
+            "text text text text text " +
+            "text text text text text " +
+            "text text text text text " +
             "text text text text text ";
     public byte[] img;
+    public String type = "Type";
 
     public Notice() {
     }
