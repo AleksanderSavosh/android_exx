@@ -61,5 +61,9 @@
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
+        <activity android:name=".thirteen.MainActivity"
+                  android:icon="@drawable/icon"
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.AppCompat"/>
     </application>
 </manifest>
