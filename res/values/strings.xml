@@ -51,4 +51,10 @@
     <string name="exx_eleven">Example 11 (View pager.)</string>
     <string name="exx_twelve">Example 12 (Recycler view with card view for notes.)</string>
     <string name="exx_thirteen">Example 13 (FloatLabel.)</string>
+    <string name="exx_fourteen">Example 14 (Material tabs.)</string>
+    <string name="exx14_fixed_tabs">Fixed Tabs</string>
+    <string name="exx14_scrollable_tabs">Scrollable Tabs</string>
+    <string name="exx14_tabs_with_icon_and_text">Tabs with Icon And Text</string>
+    <string name="exx14_tabs_with_only_icon">Tabs with only Icon</string>
+    <string name="exx14_custom_tabs">Custom tabs</string>
 </resources>

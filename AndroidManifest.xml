@@ -11,59 +11,65 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".one.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
-        <activity android:name=".one.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
-        <activity android:name=".two.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
-        <activity android:name=".three.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
-        <activity android:name=".three.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+        <activity android:name=".exx1.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
+        <activity android:name=".exx1.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
+        <activity android:name=".exx2.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
+        <activity android:name=".exx3.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"/>
+        <activity android:name=".exx3.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".four.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+        <activity android:name=".exx4.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
-        <activity android:name=".five.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+        <activity android:name=".exx5.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".five.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+        <activity android:name=".exx5.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".six.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+        <activity android:name=".exx6.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
-        <activity android:name=".seven.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+        <activity android:name=".exx7.FirstActivity" android:icon="@drawable/icon" android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".seven.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"
+        <activity android:name=".exx7.SecondActivity" android:icon="@drawable/icon" android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".eight.SplashScreenActivity"
+        <activity android:name=".exx8.SplashScreenActivity"
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".eight.FirstActivity"
+        <activity android:name=".exx8.FirstActivity"
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".eight.SecondActivity"
+        <activity android:name=".exx8.SecondActivity"
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".nine.FirstActivity"
+        <activity android:name=".exx9.FirstActivity"
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".eleven.SplashScreenActivity"
+        <activity android:name=".exx11.SplashScreenActivity"
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".eleven.FirstActivity"
+        <activity android:name=".exx11.FirstActivity"
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".eleven.ScreenSlidePagerActivity"
+        <activity android:name=".exx11.ScreenSlidePagerActivity"
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.NoActionBar"/>
-        <activity android:name=".twelve.MainActivity"
+        <activity android:name=".exx12.MainActivity"
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Holo.Light.NoActionBar"/>
-        <activity android:name=".thirteen.MainActivity"
+        <activity android:name=".exx13.MainActivity"
                   android:icon="@drawable/icon"
                   android:label="@string/app_name"
                   android:theme="@style/Theme.AppCompat"/>
+        <activity android:name=".exx14.MainActivity"
+                  android:icon="@drawable/icon"
+                  android:label="@string/app_name"
+                  android:theme="@style/MyMaterialTheme"/>
+        <activity android:name=".exx14.TabsActivity" android:theme="@style/MyMaterialTheme"
+                  android:parentActivityName=".exx14.MainActivity"/>
     </application>
 </manifest>

@@ -4,6 +4,5 @@ cardview/gen/*
 cardview/src/*
 gen/*
 out/production/android_exx/*
-!out/production/android_exx/android_exx.apk
 out/production/cardview/*
-
+!out/production/android_exx/*.apk

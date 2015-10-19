@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-import com.savosh.exx.ten.DownloadGifUrlsTaskByBitSteps;
-import com.savosh.exx.ten.GifReflectArrayAdapter;
+import com.savosh.exx.exx10.DownloadGifUrlsTaskByBitSteps;
+import com.savosh.exx.exx10.GifReflectArrayAdapter;
 
 public class MenuActivity extends Activity {
 
@@ -22,85 +22,90 @@ public class MenuActivity extends Activity {
         Toast.makeText(this, "id: " + v.getId(), Toast.LENGTH_LONG).show();
 
         switch (v.getId()){
-            case R.id.menu_btn_exx_one:{
-                Intent intent = new Intent(this, com.savosh.exx.one.FirstActivity.class);
+            case R.id.menu_btn_exx1:{
+                Intent intent = new Intent(this, com.savosh.exx.exx1.FirstActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_two:{
-                Intent intent = new Intent(this, com.savosh.exx.two.FirstActivity.class);
+            case R.id.menu_btn_exx2:{
+                Intent intent = new Intent(this, com.savosh.exx.exx2.FirstActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_three_dot_one:{
-                Intent intent = new Intent(this, com.savosh.exx.three.FirstActivity.class);
+            case R.id.menu_btn_exx3_1:{
+                Intent intent = new Intent(this, com.savosh.exx.exx3.FirstActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_three_dot_two:{
-                Intent intent = new Intent(this, com.savosh.exx.three.SecondActivity.class);
+            case R.id.menu_btn_exx3_2:{
+                Intent intent = new Intent(this, com.savosh.exx.exx3.SecondActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_four:{
-                Intent intent = new Intent(this, com.savosh.exx.four.FirstActivity.class);
+            case R.id.menu_btn_exx4:{
+                Intent intent = new Intent(this, com.savosh.exx.exx4.FirstActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_five_dot_one:{
-                Intent intent = new Intent(this, com.savosh.exx.five.FirstActivity.class);
+            case R.id.menu_btn_exx5_1:{
+                Intent intent = new Intent(this, com.savosh.exx.exx5.FirstActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_five_dot_two:{
-                Intent intent = new Intent(this, com.savosh.exx.five.SecondActivity.class);
+            case R.id.menu_btn_exx5_2:{
+                Intent intent = new Intent(this, com.savosh.exx.exx5.SecondActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_six:{
-                Intent intent = new Intent(this, com.savosh.exx.six.FirstActivity.class);
+            case R.id.menu_btn_exx6:{
+                Intent intent = new Intent(this, com.savosh.exx.exx6.FirstActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_seven_dot_one:{
-                Intent intent = new Intent(this, com.savosh.exx.seven.FirstActivity.class);
+            case R.id.menu_btn_exx7_1:{
+                Intent intent = new Intent(this, com.savosh.exx.exx7.FirstActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_seven_dot_two:{
-                Intent intent = new Intent(this, com.savosh.exx.seven.SecondActivity.class);
+            case R.id.menu_btn_exx7_2:{
+                Intent intent = new Intent(this, com.savosh.exx.exx7.SecondActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_eight:{
-                Intent intent = new Intent(this, com.savosh.exx.eight.SplashScreenActivity.class);
+            case R.id.menu_btn_exx8:{
+                Intent intent = new Intent(this, com.savosh.exx.exx8.SplashScreenActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_nine:{
-                Intent intent = new Intent(this, com.savosh.exx.nine.FirstActivity.class);
+            case R.id.menu_btn_exx9:{
+                Intent intent = new Intent(this, com.savosh.exx.exx9.FirstActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_ten:{
-                Intent intent = new Intent(this, com.savosh.exx.nine.FirstActivity.class);
+            case R.id.menu_btn_exx10:{
+                Intent intent = new Intent(this, com.savosh.exx.exx9.FirstActivity.class);
                 intent.putExtra("outerAdapter", GifReflectArrayAdapter.class);
                 intent.putExtra("outerTask", DownloadGifUrlsTaskByBitSteps.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_eleven:{
-                Intent intent = new Intent(this, com.savosh.exx.eleven.SplashScreenActivity.class);
+            case R.id.menu_btn_exx11:{
+                Intent intent = new Intent(this, com.savosh.exx.exx11.SplashScreenActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_twelve:{
-                Intent intent = new Intent(this, com.savosh.exx.twelve.MainActivity.class);
+            case R.id.menu_btn_exx12:{
+                Intent intent = new Intent(this, com.savosh.exx.exx12.MainActivity.class);
                 startActivity(intent);
                 break;
             }
-            case R.id.menu_btn_exx_thirteen:{
-                Intent intent = new Intent(this, com.savosh.exx.thirteen.MainActivity.class);
+            case R.id.menu_btn_exx13:{
+                Intent intent = new Intent(this, com.savosh.exx.exx13.MainActivity.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.menu_btn_exx14:{
+                Intent intent = new Intent(this, com.savosh.exx.exx14.MainActivity.class);
                 startActivity(intent);
                 break;
             }

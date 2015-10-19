@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button android:id="@+id/exx14_btn_fixed_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/exx14_fixed_tabs"
+            android:onClick="click"/>
+
+    <Button android:id="@+id/exx14_btn_scrollable_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/exx14_scrollable_tabs"
+            android:onClick="click"/>
+
+    <Button android:id="@+id/exx14_btn_tabs_with_icon_and_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/exx14_tabs_with_icon_and_text"
+            android:onClick="click"/>
+
+    <Button android:id="@+id/exx14_btn_tabs_with_only_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/exx14_tabs_with_only_icon"
+            android:onClick="click"/>
+
+    <Button android:id="@+id/exx14_btn_custom_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/exx14_custom_tabs"
+            android:onClick="click"/>
+
+</LinearLayout>

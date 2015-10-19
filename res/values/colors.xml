@@ -7,4 +7,12 @@
     <color name="eight_first_activity_header">#c700ddee</color>
     <color name="eight_second_card_view_good">#ff0e7900</color>
     <color name="eight_second_card_view_bad">#ff950007</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="textColorPrimary">#FFFFFF</color><!--This is the primary color of text. This applies to toolbar title.-->
+    <color name="windowBackground">#FAFAFA</color><!--This is the default background color of the app.-->
+    <color name="navigationBarColor">#000000</color><!--This color defines the background color of footer navigation bar.-->
+    <color name="colorAccent">#FF5722</color>
 </resources>
