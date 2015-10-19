@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 import com.savosh.exx.R;
+import com.savosh.exx.exx14.fragment.AsymmetricLayoutFragment;
 import com.savosh.exx.exx14.fragment.TextFragment;
 
 import java.util.ArrayList;
@@ -70,12 +71,14 @@ public class TabsActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(android.R.drawable.ic_dialog_info);
         tabLayout.getTabAt(1).setIcon(android.R.drawable.ic_dialog_alert);
         tabLayout.getTabAt(2).setIcon(android.R.drawable.ic_dialog_dialer);
+        tabLayout.getTabAt(2).setIcon(android.R.drawable.ic_dialog_map);
     }
 
     private void setupCustomTabViews(){
         tabLayout.getTabAt(0).setCustomView(createCustomView(android.R.drawable.ic_dialog_info, "ONE"));
         tabLayout.getTabAt(1).setCustomView(createCustomView(android.R.drawable.ic_dialog_alert, "TWO"));
         tabLayout.getTabAt(2).setCustomView(createCustomView(android.R.drawable.ic_dialog_dialer, "THREE"));
+        tabLayout.getTabAt(2).setCustomView(createCustomView(android.R.drawable.ic_dialog_map, "FOUR"));
     }
 
     private View createCustomView(int icId, String text){
@@ -92,6 +95,7 @@ public class TabsActivity extends AppCompatActivity {
         adapter.addFragment(TextFragment.create("One"), "ONE");
         adapter.addFragment(TextFragment.create("Two"), "TWO");
         adapter.addFragment(TextFragment.create("Three"), "THREE");
+        adapter.addFragment(new AsymmetricLayoutFragment(), "FOUR");
         if(mode == MODE_SCROLLABLE_TABS) {
             adapter.addFragment(TextFragment.create("Four"), "FOUR");
             adapter.addFragment(TextFragment.create("Five"), "FIVE");
